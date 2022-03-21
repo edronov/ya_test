@@ -32,6 +32,7 @@ def run():
     print(filter_comparison())
     print(timeit.timeit(filter_comparison, number=1000))
 
+    # сравнение списков с помощью comprehension в 2 раза быстрее
     print(comprehension_comparison())
     print(timeit.timeit(comprehension_comparison, number=1000))
 
